@@ -1,5 +1,5 @@
 import streamlit as st
-from utils.display_results import *
+from utils.display_results import postprocessing_view
 
 def main():
     st.sidebar.title("What to do")
