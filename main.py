@@ -1,10 +1,6 @@
 import streamlit as st
-from utils.image_loader import *
 from utils.display_results import *
 
-@st.cache_data
-def load_image(image_filename):
-    return
 def main():
     st.sidebar.title("What to do")
     app_mode = st.sidebar.selectbox("Choose",
