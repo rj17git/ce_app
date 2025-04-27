@@ -1,0 +1,20 @@
+#.gitignore
+
+# Python (temporary files, virtual env, ...)
+__pycache__/
+.venv
+.env
+venv/
+*.sqlite3
+
+# VSCode or others editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Streamlit (cache files)
+.streamlit/
+
+
