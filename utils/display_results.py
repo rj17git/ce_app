@@ -1,6 +1,6 @@
 import streamlit as st
-from utils.image_loader import *
-from utils.analyze_image import *
+from utils.image_loader import get_image
+from utils.analyze_image import analyze_cell, analyze_image
 
 def sidebar_inputs():
     st.sidebar.title("Corneal Endothelium Analysis")
